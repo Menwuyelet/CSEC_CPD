@@ -10,3 +10,4 @@ if up > dn:
     print(w.upper())
 else:
     print(w.lower())
+
