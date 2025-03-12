@@ -1,10 +1,13 @@
-ls = list(map(int,input().split()))
+n = list(map(int, input().split()))
 target = int(input())
-ans = []
-for i in range(len(ls)):
-    for j in range(i+1,len(ls)):
-        if ls[i] + ls[j] == target:
-            ans.append(i)
-            ans.append(j)
-            break
-print(ans)
+front = 0
+last = len(n) - 1
+
+while front < last:
+    if n[front] + n[last] < target:
+        front += 1
+    elif n[front] + n[last] > target:
+        last -=1
+    else:
+        print("["+str(front + 1)+","+str(last + 1)+"]")
+        break
