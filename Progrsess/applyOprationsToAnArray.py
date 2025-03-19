@@ -1,5 +1,4 @@
-nums = list(map(int, input().split()))
-
+nums = [1,2,2,1,1,0]
 for i in range(len(nums)-1):
     if nums[i] == nums[i+1]:
         nums[i] *= 2
@@ -14,3 +13,5 @@ for read in range(len(nums)):
         read +=1
 
 print(nums)
+
+## time 10minut
