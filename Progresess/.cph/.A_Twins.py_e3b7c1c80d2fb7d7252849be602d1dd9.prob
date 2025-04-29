@@ -1,0 +1,1 @@
+{"name":"Local: A_Twins","url":"/home/nafiad/CPD/Progrsess/A_Twins.py","tests":[{"id":1742888255423,"input":"2\n3 3","output":"2"},{"id":1742888266243,"input":"3\n2 1 2","output":"2"},{"id":1742888477493,"input":"5\n4 2 2 2 2","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/nafiad/CPD/Progrsess/A_Twins.py","group":"local","local":true}
