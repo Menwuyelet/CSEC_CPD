@@ -1,8 +1,0 @@
-for i in range(5):
-    n = list(map(int, input().split()))
-    if 1 in n:
-        m1 =n.index(1) + 1
-        m2 = i + 1  
-        
-m = abs(m1 - 3) + abs(m2 - 3)
-print(m)
